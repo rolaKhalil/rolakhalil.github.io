@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins|Slabo+27px&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Mansalva&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins|Slabo+27px&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #00aced;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1.5vw;
+  font-family: "Slabo 27px", serif;
+}
+
+.logo {
+  font-family: "Mansalva", cursive;
+  font-size: 1.6vw;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #97cde1;
+}
+
+.wrapper {
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+
+.hero-text {
+  font-family: "Slabo 27px", serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+}
+
+.icons {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 5vh;
+  color: #00aced !important;
+  text-decoration: none;
+}
+
+.info-text {
+  font-family: "Slabo 27px", serif;
+  font-size: 20px;
+}
+
+.employer-scotia {
+  color: #ee3124;
+  font-family: "Slabo 27px", serif;
+  font-size: 1.6vw;
+  display: inline;
+  padding-left: 0.5vw;
+  text-decoration: none;
+}
+.employer-tealbook {
+  color: #008080;
+  font-family: "Slabo 27px", serif;
+  font-size: 1.6vw;
+  display: inline;
+  padding-left: 0.5vw;
+  text-decoration: none;
+}
+
+.employer-ruenav {
+  color: black;
+  font-family: "Slabo 27px", serif;
+  font-size: 1.6vw;
+  display: inline;
+  padding-left: 0.5vw;
+  text-decoration: none;
+}
+
+.role {
+  color: black;
+  font-family: "Oswald", sans-serif;
+  font-size: 1.6vw;
+  text-decoration: none;
+  font-weight: 200;
+}
+
+.duration {
+  color: gray;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1vw;
+  margin-top: 0px;
+  text-decoration: none;
+  font-weight: 100;
+}
+
+.coop {
+  margin-left: 5vw;
+  margin-right: 5vw;
+  margin-bottom: 5vh;
+}
+
+.highlight {
+  color: #00aced;
+  display: inline;
+}
+
+.experience {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  margin-top: 100vh;
+}
+
+.experienceContainer {
+  background: #ffffff;
+  box-shadow: 3px 3px 10px 0 #e6e7e8;
+  margin-bottom: 2em;
+  transition: all 0.5s ease-in-out;
+  top: 50%;
+  left: 50%;
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+
+.experienceContainer:hover {
+  transform: scale(1.02);
+  box-shadow: 12px 12px 22px 0 #e6e7e8;
+}
+
+img {
+  width: 500px;
+  height: 300px;
+}
+
+.projectPreview {
+  float: right;
+  margin: 1vw;
+}
+
+.experienceContent {
+  float: left;
+  text-decoration: none !important;
+  padding-left: 1vw;
+}
+
+.experienceDescription {
+  color: gray;
+  font-family: "Oswald", sans-serif;
+  font-size: 1.6vw;
+  text-decoration: none;
+  font-weight: 50;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.tealbookDes {
+  padding-left: 50px;
+}
