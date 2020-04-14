@@ -3,6 +3,86 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins|Slabo+27px&display=swap");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
 
+/* .wrapper {
+  margin-left: 5vw;
+  margin-right: 5vw;
+} */
+
+.mySidenav a {
+  position: absolute;
+  left: -80px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 100px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+}
+
+.mySidenav a:hover {
+  left: 0;
+}
+
+.blog {
+  top: 20px;
+  background-color: #00aced;
+}
+
+.hero-text {
+  font-family: "Slabo 27px", serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+}
+
+.intro {
+  font-size: 75px;
+}
+
+.highlight {
+  color: #00aced;
+  display: inline;
+}
+
+.icons {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 5vh;
+  color: #00aced !important;
+  text-decoration: none;
+  font-size: 48px;
+}
+
+.info-text {
+  font-family: "Slabo 27px", serif;
+  font-size: 20px;
+}
+
+@media screen and (max-device-width: 700px) and (min-device-width: 0px) {
+  .hero-text {
+    font-family: "Slabo 45px", serif;
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: translate(0, 0);
+    color: black;
+    padding: 10%;
+  }
+
+  .icons {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 50px;
+    color: #00aced !important;
+    text-decoration: none;
+    font-size: 80px;
+  }
+}
+
+/* 
 ul {
   list-style-type: none;
   margin: 0;
@@ -33,33 +113,6 @@ li a {
 
 li a:hover {
   background-color: #97cde1;
-}
-
-.wrapper {
-  margin-left: 5vw;
-  margin-right: 5vw;
-}
-
-.hero-text {
-  font-family: "Slabo 27px", serif;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: black;
-}
-
-.icons {
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-top: 5vh;
-  color: #00aced !important;
-  text-decoration: none;
-}
-
-.info-text {
-  font-family: "Slabo 27px", serif;
-  font-size: 20px;
 }
 
 .employer-scotia {
@@ -109,11 +162,6 @@ li a:hover {
   margin-left: 5vw;
   margin-right: 5vw;
   margin-bottom: 5vh;
-}
-
-.highlight {
-  color: #00aced;
-  display: inline;
 }
 
 .experience {
@@ -168,4 +216,4 @@ img {
 
 .tealbookDes {
   padding-left: 50px;
-}
+} */
